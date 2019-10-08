@@ -1,0 +1,11 @@
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/obj/Debug/netcoreapp3.0/AddressBook.csprojAssemblyReference.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/obj/Debug/netcoreapp3.0/AddressBook.AssemblyInfoInputs.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/obj/Debug/netcoreapp3.0/AddressBook.AssemblyInfo.cs
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook.deps.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook.runtimeconfig.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook.runtimeconfig.dev.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/bin/Debug/netcoreapp3.0/AddressBook.pdb
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/obj/Debug/netcoreapp3.0/AddressBook.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/AddressBook/obj/Debug/netcoreapp3.0/AddressBook.pdb
