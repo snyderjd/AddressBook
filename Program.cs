@@ -36,22 +36,15 @@ namespace AddressBook
                 juan.Email = "juan.lopez@email.com";
                 juan.Address = "888 Easy St, Testville, TN 11111";
 
+
+            // Create an AddressBook and add some contacts to it
             AddressBook addressBook = new AddressBook();
 
-            try
-            {
-                // Create an AddressBook and add some contacts to it
-                addressBook.AddContact(bob);
-                addressBook.AddContact(sue);
-                addressBook.AddContact(juan);
-            }
-            catch (System.NullReferenceException)
-            {
-                Console.WriteLine("There was a problem adding contacts to the address book.");
-            }
-            
+            addressBook.AddContact(bob);
+            addressBook.AddContact(sue);
+            addressBook.AddContact(juan);
 
-            // Try to addd a contact a second time
+            // Try to add a contact a second time
             try
             {
                 addressBook.AddContact(sue);
@@ -75,11 +68,19 @@ namespace AddressBook
             //  Search the AddressBook by email and print the information about each Contact
             foreach (string email in emails)
             {
-                Contact contact = addressBook.GetByEmail(email);
-                Console.WriteLine("----------------------------");
-                Console.WriteLine($"Name: {contact.FullName}");
-                Console.WriteLine($"Email: {contact.Email}");
-                Console.WriteLine($"Address: {contact.Address}");
+                try
+                {
+                    Contact contact = addressBook.GetByEmail(email);
+                    Console.WriteLine("----------------------------");
+                    Console.WriteLine($"Name: {contact.FullName}");
+                    Console.WriteLine($"Email: {contact.Email}");
+                    Console.WriteLine($"Address: {contact.Address}");
+                }
+                catch
+                {
+                    Console.WriteLine("----------------------------");
+                    Console.WriteLine($"Did not find a contact with an email of {email}.");
+                }
             }
         }
     }
